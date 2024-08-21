@@ -3,7 +3,7 @@ Nuvem: É um termo utilizado para descrever uma rede global de servidores, cada 
 Servidor (computação): Um servidor é um computador ou software mais potente que um desktop comum. Ele é capaz de conter um ou mais processadores, além de bancos de memórias, portas de comunicação, diferentes softwares e sistemas de armazenamento de dados. Bibliografia: https://coodesh.com/blog/dicionario/o-que-e-um-servidor/
 Banco de Dados: Um banco de dados é uma coleção organizada de informações - ou dados - estruturadas, normalmente armazenadas eletronicamente em um sistema de computador. Um banco de dados é geralmente controlado por um sistema de gerenciamento de banco de dados (DBMS). Juntos, os dados e o DBMS, juntamente com os aplicativos associados a eles, são chamados de sistema de banco de dados, geralmente abreviados para apenas banco de dados. Bibliografia: https://www.oracle.com/br/database/what-is-database/
 Memória (computação): Memória é um termo que se refere a uma capacidade mental, cuja função é codificar, armazenar e recuperar informações. Ou seja, permite-nos guardar, no nosso interior, experiências tais como sentimentos, acontecimentos, imagens, ideias, etc. Resumindo, é graças à memória que podemos guardar qualquer elemento pertencente ao nosso passado. Bibliogria: https://neuronup.com.br/noticias-de-estimulacao-cognitiva/funcoes-cognitivas/memoria/a-memoria-definicao-tipos-exercicios-e-avaliacao. 
-
+Arquivo: conjunto de dados que representa alguma coisa 
 
 TRABALHO 2 (20/08/2024
 A) A relação entre LGDP e os Data Centers no Brasil:
@@ -15,3 +15,10 @@ Os exemplos de formatos de arquivos proprietários são PPT (formato de powerpoi
 
 b.2) Discuta as implicações relacionadas a dados públicos: 
 Os dados públicos são aqueles que não possuem restrições de privacidade, segurança ou controle de acesso, conforme definidos por estatutos legais. Possuem origem da atuação do Estado, esses dados devem ser divulgados e podem ser armazenados em formatos de arquivos abertos ou proprietários. Formatos abertos seguem padrões amplamente divulgados, permitindo que diferentes softwares os utilizem. Por outro lado, os formatos proprietários são restritos e controlados por direitos de propriedade, o que pode representar uma forma de privatização da memória digital. No Brasil, os dados públicos deveriam ser disponibilizados em formatos abertos, mas frequentemente são divulgados em formatos proprietários. O principal argumento do governo para isso é a segurança dos dados. No entanto, há um esforço crescente para que o governo brasileiro passe a disponibilizar esses dados em formatos abertos.
+Dados públicos: dados estatais disponibilizados pelo Governo. Nem sempre os dados públicos são disponibilizados por dados aberto. N são disponíveis em formato aberto pq precisam de uma formatação muito específica. - diminuir o alcance do dado.
+
+
+TRABALHO 3 (21/08/2024)
+1. Explique as diferenças entre 3 linguagens de programação: Python, JavaScript e C++ são linguagens de programação com características distintas. Python se destaca por sua sintaxe simples e legibilidade, tornando-a ideal para desenvolvimento rápido e fácil, especialmente em ciência de dados e automação. Já o JavaScript é essencial para o desenvolvimento web, permitindo a criação de interfaces dinâmicas e interativas tanto no navegador quanto no servidor com Node.js. Por outro lado, C++ é uma linguagem compilada de baixo nível, utilizada em aplicações que exigem alto desempenho, oferecendo controle detalhado sobre o hardware e complexidade na gestão de memória. 
+a. Tente fazer um código mínimo em cada uma delas:
+b.
