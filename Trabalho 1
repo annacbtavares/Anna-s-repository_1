@@ -25,3 +25,29 @@ a. Tente fazer um código mínimo em cada uma delas:
 1: Python:https://github.com/annacbtavares/Anna-s-repository_1.git
 2: Java: https://github.com/annacbtavares/Anna-s-repository_1.git
 3: C++: https://github.com/annacbtavares/Anna-s-repository_1.git 
+
+
+TRABALHO 4 (28/08/2024)
+1. Estrutura de Repetição:
+- Código
+Cores = ('branco', 'lilas', 'amarelo', 'vermelho')
+for Cores in Cores:
+    print (Cores)
+
+- Comprovante de Execução:
+https://github.com/annacbtavares/Anna-s-repository_1/commit/7586d9f12032be6189ae2e525163cd36dcde8174 
+
+2. Estrutura de Tomada de Decisão:
+- Código:
+#Variável Voto
+idade = 22
+
+# Condição Para Votar 
+if idade >= 16:
+    print ("Aptos")
+else:
+    print("Inapto")
+
+- Comprovante de Execução:
+https://github.com/annacbtavares/Anna-s-repository_1/blob/main/Voto.PNG 
+
