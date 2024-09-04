@@ -82,6 +82,7 @@ frase = "Enquanto houver um coração infantil, o Vasco da Gama será imortal!"
 resultado = extrair_vogais(frase)
 print("Vogais extraídas:", resultado)
 
+https://github.com/annacbtavares/Anna-s-repository_1/blob/main/Vogais.PNG
 
 
 
