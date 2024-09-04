@@ -66,4 +66,23 @@ print ("Lista original:", lista)
 bubbleSort(lista)
 print("Lista ordenada:", lista)
 
+https://github.com/annacbtavares/Anna-s-repository_1/blob/main/Numera%C3%A7%C3%A3o.PNG 
+
+2. Algoritmo que imprima apenas as vogais de uma determinada palavra ou frase:
+def extrair_vogais(texto):
+    # Definindo as vogais
+    vogais = "aeiouAEIOU"
+    # Criando uma lista para armazenar as vogais encontradas
+    vogais_encontradas = [caractere for caractere in texto if caractere in vogais]
+    # Convertendo a lista de vogais em uma string e retornando
+    return ''.join(vogais_encontradas)
+
+# Exemplo de uso
+frase = "Enquanto houver um coração infantil, o Vasco da Gama será imortal!"
+resultado = extrair_vogais(frase)
+print("Vogais extraídas:", resultado)
+
+
+
+
 
