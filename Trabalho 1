@@ -50,3 +50,20 @@ else:
 
 - Comprovante de Execução:
 https://github.com/annacbtavares/Anna-s-repository_1/blob/main/Voto.PNG 
+
+TRABALHO 5 (04/09/2024)
+1. Algoritmo de Ordenação Bubblie Sort usando pyton:
+def bubbleSort(alist):
+    for passnum in range(len(alist) - 1, 0, -1):
+        for i in range(passnum):
+            if alist[i] > alist[i + 1]:
+                temp = alist[i]
+                alist[i] = alist[i + 1]
+                alist[i + 1] = temp
+
+lista = [24, 94, 5, 12, 22, 61, 90]
+print ("Lista original:", lista)
+bubbleSort(lista)
+print("Lista ordenada:", lista)
+
+
