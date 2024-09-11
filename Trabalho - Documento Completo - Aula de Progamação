@@ -96,8 +96,100 @@ def imprimir_informacoes(nome, idade, cidade):
     print("Cidade:", cidade, sep=' ', end='\n')
 
 # Exemplo de uso da função
-imprimir_informacoes("Anna", 21, "Rio de Janeiro")
+imprimir_informacoes("Anna", 21, "Rio de Janeiro!")
 
+
+
+2) Escreva uma função que peça ao usuário dois números e a operação
+desejada ('+', '-', '*' ou '/'). Sua função deve calcular e imprimir o
+resultado da operação especificada.
+def calculadora():
+    # Solicita ao usuário o primeiro número
+    num1 = float(input("Digite o primeiro número: "))
+    # Solicita ao usuário o segundo número
+    num2 = float(input("Digite o segundo número: "))
+    # Solicita ao usuário a operação desejada
+    operacao = input("Digite a operação desejada (+, -, *, /): ")
+
+    # Calcula o resultado com base na operação
+    if operacao == '+':
+        resultado = num1 + num2
+    elif operacao == '-':
+        resultado = num1 - num2
+    elif operacao == '*':
+        resultado = num1 * num2
+    elif operacao == '/':
+        if num2 != 0:
+            resultado = num1 / num2
+        else:
+            print("Erro: Divisão por zero não é permitida.")
+            return
+    else:
+        print("Operação inválida. Por favor, escolha +, -, * ou /.")
+        return
+
+    # Imprime o resultado
+    print(f"O resultado de {num1} {operacao} {num2} é {resultado}")
+
+# Exemplo de uso da função
+calculadora()
+
+https://github.com/annacbtavares/Anna-s-repository_1/blob/main/2%20-%20opera%C3%A7%C3%A3o.PNG
+
+3) Crie uma função que peça ao usuário para digitar itens de uma lista
+de compras, separados por vírgula. Armazene esses itens em uma lista
+e, ao final, imprima todos os itens em linhas separadas usando um
+laço.
+
+def criar_lista_de_compras():
+    # Solicita ao usuário para digitar os itens separados por vírgula
+    entrada = input("Digite os itens da lista de compras: ")
+    
+    # Divide a entrada em uma lista de itens, removendo espaços extras
+    itens = [item.strip() for item in entrada.split(',')]
+    
+    # Imprime os itens com um índice
+    for i, item in enumerate(itens, start=1):
+        print(f"Item {i}: {item}")
+
+# Chama a função
+criar_lista_de_compras()
+
+https://github.com/annacbtavares/Anna-s-repository_1/blob/main/3%20-%20compras.PNG
+
+4)Faça uma função que solicite ao usuário a temperatura em graus
+Celsius, converta-a para Fahrenheit e imprima o resultado. A fórmula
+de conversão é: (Celsius * 9/5) + 32
+
+Temperatura = int(input("Digite a temperatura: "))
+print("No Rio a temperatura é de", (26 * 9/5) + 32., "graus  Fahrenheit.")
+
+https://github.com/annacbtavares/Anna-s-repository_1/blob/main/4%20-%20temperatura.PNG
+
+5) Escreva uma função que continue a pedir ao usuário para digitar
+nomes até que o nome 'sair' seja digitado. Ao final, o programa deve
+imprimir todos os nomes digitados, cada um em uma linha.
+
+def coletar_nomes():
+    nomes = []  # Inicializa uma lista vazia para armazenar os nomes
+    
+    while True:  # Inicia um loop que vai continuar até ser interrompido
+        nome = input("Digite um nome (ou 'sair' para encerrar): ")  # Pede ao usuário para digitar um nome
+        
+        if nome.lower() == 'sair':  # Verifica se o usuário digitou 'sair'
+            break  # Sai do loop se o nome for 'sair'
+        
+        nomes.append(nome)  # Adiciona o nome à lista de nomes
+    
+    # Após sair do loop, imprime todos os nomes que foram digitados
+    print("Nomes digitados:")
+    for nome in nomes:  # Itera sobre a lista de nomes
+        print(nome)  # Imprime cada nome em uma nova linha
+
+# Chama a função para executar
+coletar_nomes()
+
+https://github.com/annacbtavares/Anna-s-repository_1/blob/main/5%20-%20nomes%20sair.PNG
 
 
 
